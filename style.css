@@ -1,0 +1,1003 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+.medic .head{
+    padding: 0 100px;
+    height: 30px;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medic .head p .sign a{
+    text-decoration: none;
+    color: white;
+}
+
+.medic .head p .icon{
+    padding: 0 10px;
+}
+
+.medic .nav{
+    padding: 0 130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.medic .nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medic .nav ul li{
+    list-style-type: none;
+}
+
+.medic .nav ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    padding-bottom: 5px;
+    color: black;
+    font-weight: 500;
+}
+
+.medic .nav ul li a:hover{
+    border-bottom: 3px solid blue;
+}
+
+.medic .nav ul li .appoint{
+    background-color: red;
+    padding: 12px 16px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.medic .nav ul li .appoint:hover{
+    background-color: rgb(0, 106, 255);
+    border-bottom: 0px solid blue;
+}
+
+.medic .banner{
+    background: url(img/successful-medical-team.jpg) no-repeat center/cover;
+    /* background: linear-gradient(170deg, rgba(82, 198, 248, 0.6), rgba(11, 36, 161, 0.7)), url(img/successful-medical-team.jpg) no-repeat center/cover; */
+    height: 660px;
+    margin-top: 30px;
+    padding: 100px 130px 0 130px;
+}
+
+.medic .banner h5{
+    color: rgb(0, 106, 255);
+    font-weight: 900;
+}
+
+.medic .banner h1{
+    font-size: 63px;
+    font-weight: 900;
+    line-height: 60px;
+    padding: 35px 0;
+    text-shadow: 0.1px 0.1px 3px  rgb(237, 231, 231);
+}
+
+.medic .banner p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.3px 0.1px 5px  rgb(0, 0, 0);
+    margin-bottom: 30px;
+}
+
+.medic .banner button{
+    background-color: rgb(0, 106, 255);
+    padding: 16px 16px;
+    border: 0px solid blue;
+    border-radius: 40px;
+    transition: background-color 0.4s ease-in-out;
+}
+
+.medic .banner button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.medic .banner button:hover{
+    background-color: red;
+    border: 0px solid red;
+}
+
+.medic .about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 80px;
+}
+
+.medic .about img{
+    width: 500px;
+}
+
+.medic .about h1{
+    font-size: 45px;
+}
+
+.medic .about .stay{
+    color: rgb(0, 106, 255);
+}
+
+.medic .about p{
+    font-size: 20px;
+    font-weight: 460;
+    line-height: 30px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0.5px 0.5px 3px  rgb(214, 189, 189);
+    margin: 30px 0;
+}
+
+.medic .about .right button{
+    background-color: rgb(0, 106, 255);
+    padding: 16px 16px;
+    border: 0px solid blue;
+    border-radius: 40px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.medic .about .right button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.medic .about .right input{
+    background-color: red;
+    padding: 16px 16px;
+    border: 0px solid blue;
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    transition: background-color 0.1s ease-in-out;
+}
+
+.medic .about .right input:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+
+}
+
+/* Services Section */
+
+.medic .services{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 130px;
+}
+
+.medic .services .left {
+    width: 50%;
+}
+
+.medic .services .left h1{
+    font-size: 50px; 
+    padding: 0 0 60px 0;   
+}
+
+.medic .services .left .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.medic .services .left .service .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.medic .services .left .service .row .list .check{
+    font-size: 70px;
+    text-align: center;
+    border: 1px solid #ffa7a2;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #ffa7a2;
+    color: rgb(179, 47, 47);
+}
+
+.medic .services .left .service .row .list .text{
+    font-size: 60px;
+    padding: 5px 0 0 5px;
+}
+
+.medic .services .left .service .row .list .title{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+    padding: 5px 0 0 5px;
+}
+
+.medic .services .right{
+    background-color: white;
+    padding: 0px 50px;
+}
+
+.medic .services .right h4{
+    color: blue;
+    margin: 50px 0 30px 0;
+    font-size: 20px;
+}
+
+.medic .services .right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.medic .services .right form .date{
+    text-indent: 7px;
+}
+
+.medic .services .right form .msg{
+    text-indent: 10px;
+    outline: none;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+
+.medic .services .right form a .appoint{
+    background-color: red;
+    padding: 13px 15px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.medic .services .right form a .appoint:hover{
+    background-color: rgb(255, 255, 255);
+    color: red;
+    border: 1px solid red;
+}
+
+.medic .services .right form input{
+    width: 350px;
+    height: 60px;
+    border: 1px solid rgb(68, 63, 63);
+    border-radius: 30px;
+    text-indent: 15px;
+    font-size: 15px;
+    outline: none;
+}
+
+/* End of Services */
+
+/* Start of Priority */
+.medic .priority{
+    background: url(img/pexels-rfstudio-3825529.jpg) no-repeat center/cover;
+    height: 500px;
+    background-color: rgb(44, 44, 232);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.medic .priority h1{
+    font-size: 60px;
+}
+
+.medic .priority p{
+    font-size: 20px;
+}
+
+.medic .priority a button{
+    background-color: rgb(255, 255, 255);
+    padding: 13px 15px;
+    margin: 20px 0;
+    border-radius: 30px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.medic .priority a button:hover{
+    color: rgb(44, 44, 232);
+}
+/* End of Priority */
+
+/* Start of Department */
+.medic .department{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.medic .department .left img{
+    width: 99.99%;
+    border-bottom: 7px solid aliceblue;
+}
+
+.medic .department .right .dept{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.medic .department .right .dept .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    border-bottom: .5px solid rgb(194, 191, 191);
+    border-right: none;
+}
+
+.medic .department .right .dept .row .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px;
+    text-align: center;
+    padding: 38.9px 60px;
+    border-bottom: .5px solid gray;
+    border-right: .5px solid gray;
+}
+
+.medic .department .right .dept .row .list:hover{
+    background-color: rgb(44, 44, 232);
+    color: white;
+}
+
+.medic .department .right .dept .row .list .check{
+    font-size: 30px;
+    padding-top: 3.5px;
+}
+
+.medic .department .right .dept .row .list p{
+    font-size: 20px;
+}
+
+/* End of Department  */
+
+
+/* Start of Doctors  */
+.medic .doctors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px; 
+    outline: 5px solid aliceblue;
+    text-align: center;
+}
+
+.medic .doctors .top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px; 
+    padding: 120px 0;
+}
+
+.medic .doctors .top h1{
+    font-size: 50px;
+}
+
+.medic .doctors .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 80px;
+}
+
+.medic .doctors .bottom .doctor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+    text-align: center;
+    gap: 10px;
+}
+
+.medic .doctors .bottom .doctor img{
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+
+.medic .doctors .bottom .doctor:hover img{
+    transform: scale(1.1);
+    transition: transform .3s ease-in-out;
+}
+
+.medic .doctors .bottom .doctor h5{
+    color: rgb(44, 44, 232);
+    letter-spacing: 3px;
+}
+
+.medic .doctors .bottom .doctor button{
+    color: white;
+    background-color: rgb(44, 44, 232);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.medic .stat{
+    /* background: linear-gradient(170deg, rgba(82, 198, 248, 0.6), rgba(11, 36, 161, 0.7)), url(img/successful-medical-team\ -\ Copy.jpg); */
+    background: linear-gradient(170deg, rgba(82, 198, 248, 0.6), rgba(11, 36, 161, 0.7)), url(img/successful-medical-team.jpg) no-repeat center/cover;
+    height: 660px;   
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.medic .stat .left{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px; 
+    color: white;
+}
+
+.medic .stat .left h5{
+    font-weight: 900;
+}
+
+.medic .stat .left h1{
+    font-size: 50px;
+}
+
+.medic .stat .left button{
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 15px 23px;
+    color: white;
+    background-color: red ;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.medic .stat .left button:hover{
+    color: red;
+    background-color: transparent ;
+}
+
+
+.medic .stat .right .column{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+
+.medic .stat .right .column .row{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+.medic .stat .right .column .top{
+    margin-top: -20px;
+}
+
+.medic .stat .right .column .row .fact{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 40px 40px;
+}
+
+.medic .stat .right .column .row .fact h1{
+    font-size: 70px;
+    color: white;
+}
+
+.medic .stat .right .column .row .fact h5{
+    font-size: 20px;
+    color: white;
+}
+
+.medic .stat .right .column .bottom{
+    border-bottom: 1px solid white;
+}
+
+.medic .stat .right .column .row .leftBottom{
+    border-left: 1px solid white;
+}
+
+.medic .stat .right .column .row .left{
+    border-left: 1px solid white;
+    padding-left: 38px;
+}
+
+.medic .blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding-bottom: 80px;
+}
+
+.medic .blog .top{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.medic .blog .top h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.medic .blog .top p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.medic .blog .bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.medic .blog .posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    gap: 50px;
+}
+
+.medic .blog .posts .post{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    gap: 15px;
+}
+
+.medic .blog .posts .post h6{
+    color: maroon;
+    cursor: pointer;
+}
+
+.medic .blog .posts .post p{
+    font-size: 16px;
+}
+
+.medic .blog .posts .post .title{
+    cursor: pointer;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.medic .blog .posts .post .title:hover{
+    color:rgb(44, 44, 232) ;
+}
+
+.medic .blog .posts .post button{
+    color: white;
+    background-color: rgb(44, 44, 232);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* Start of Contact Us */
+
+.medic .directory {
+    padding: 90px 0;
+    background-color: rgba(225, 220, 220, 0.098);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 15px;
+}
+
+.medic .directory .us{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.medic .directory .us h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.medic .directory .us p{
+    font-size: 20px;
+}
+
+.medic .directory .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    gap: 30px;
+}
+
+.medic .directory .options .option{
+    width: 270px;
+    height: 350px;
+    background-color: rgb(184, 178, 178);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px;
+}
+
+.medic .directory .options .option h1{
+    font-size: 40px;
+    padding: 15px 23px;
+    border-radius: 50%;
+    background-color: azure;
+}
+
+
+.medic .directory .options .option h4{
+    font-size: 20px;
+}
+
+.medic .directory .options .option p{
+    font-size: 18px;
+    font-weight: 500;
+}
+/* End of Contact Us */
+
+/* Start of Footer */
+.medic footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 50px; 
+    background-color: rgb(225, 225, 240);
+    padding: 100px 0;
+}
+
+.medic footer .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline; 
+    gap: 100px; 
+}
+
+.medic footer .foot .item .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 30px;
+}
+
+.medic footer .foot .item .social p{
+    font-size: 20px;
+    padding: 10px 14px;
+    background-color:  rgb(44, 44, 232);
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.medic footer .foot .item h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.medic footer .foot .item p{
+    font-size: 17px;
+    margin-bottom: 12px;
+    color:rgb(44, 44, 232);
+    cursor: pointer; 
+}
+
+.medic footer .foot .item .hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 10px; 
+    color: rgb(44, 44, 232);
+}
+
+/* End of Footer */
+
+
+@media screen and (max-width: 1000px) {
+    .medic .head{
+        padding: 0 20px;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .medic .nav{
+        padding: 0 20px;
+    }
+      
+    .medic .nav ul li a{
+        margin: 0 7px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .medic .nav ul li .appoint{
+        font-size: 15px;
+        padding: 10px 13px;
+    }
+    
+    .medic .nav ul li .appoint:hover{
+        background-color: rgb(0, 106, 255);
+        border-bottom: 0px solid blue;
+    }
+
+    .medic .nav .logo{
+        font-size: 12px;
+        font-weight: 900;
+    }
+
+    .medic .banner h5{
+        padding-top: 50px;
+        /* color: black; */
+    }
+
+    .medic .banner h1{
+        font-weight: 900;
+        
+
+    }
+
+    /* Start of About */
+    .medic .about{
+        gap: 30px;
+    }
+
+    .medic .about h1{
+        font-size: 27px;
+    }
+    
+    .medic .about .right button{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    /* End of About */
+
+    /* Start of Services */
+    .medic .services{
+        background-color: rgb(250, 250, 250);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 20px;
+    }
+
+    /* End of Services */
+
+    /* Start of Dept */
+    .medic .department .right .dept .row .list{
+        padding: 15px 0px;
+    }
+
+    .medic .doctors .bottom{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    
+    .medic .doctors .bottom .doctor{
+        width: 300px;
+    }
+/* End of Dept */
+
+
+
+
+/* Start of Stat */
+    .medic .stat{
+    /* background: linear-gradient(170deg, rgba(82, 198, 248, 0.6), rgba(11, 36, 161, 0.7)), url(img/successful-medical-team\ -\ Copy.jpg); */
+        background: linear-gradient(170deg, rgba(82, 198, 248, 0.6), rgba(11, 36, 161, 0.7)), url(img/successful-medical-team.jpg) no-repeat center/cover;
+        height: 660px;   
+        display: flex;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .medic .stat .left{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+        color: white;
+        text-align: center;
+    }
+
+    .medic .stat .left h1{
+        font-size: 40px;
+    }
+
+    .medic .stat .right .column{
+        gap: 20px; 
+    }
+
+    .medic .stat .right .column .row{
+        gap: 12px; 
+    }
+
+    .medic .stat .right .column .top{
+        margin-top: -20px;
+    }
+
+    .medic .stat .right .column .row .fact h5{
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    .medic .stat .right .column .row .leftBottom{
+    padding-left: 41px;
+    }
+
+    .medic .stat .right .column .row .left{
+    padding-left: 38px;
+    }
+
+    .medic .blog .bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        flex-wrap: wrap;
+    }
+    
+    .medic .blog .posts{
+        flex-wrap: wrap; 
+  
+    }
+
+    .medic .directory .options{
+        flex-wrap: wrap;
+    }
+
+    .medic footer .foot{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline; 
+        gap: 50px; 
+        flex-wrap: wrap;
+    }
+}
+
+/* End of stat */
+
+/* Start of priority */
+
+
+.medic .priority h1{
+    font-size: 50px;
+}
+
+.medic .priority p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* End of priority */
+
+ /* Start of Dept */
+
+.medic .department .right .dept .row .list{
+    gap: 5px;
+    padding: 38.9px 0px;
+}
+.medic .department .right .dept .row .list .check{
+    font-size: 30px;
+    padding-top: 0px;
+}
+
+.medic .department .right .dept .row .list p{
+    font-size: 15px;
+}
+
+.medic .department .right .dept .row .list h2{
+    font-size: 15px;
+}
+
+/* End of Dept */
+
+/* Start of stat */
+
+ .medic .stat{
+    gap: 5px;
+} 
+
+.medic .stat .left{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px; 
+    padding-left: 10px;
+    color: white;
+}
+
+.medic .stat .left h5{
+    font-weight: 900;
+    padding-left: 60px;
+}
+
+.medic .stat .left h1{
+    font-size: 40px;
+}
+
+.medic .stat .left button{
+    font-size: 18px;
+}
+
+.medic .stat .right .column .row .fact h5{
+    font-size: 20px;
+    color: white;
+    padding: 0px 47px;
+}
+
+.medic .stat .right .column .row .left{
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+/* End of stat */
+
